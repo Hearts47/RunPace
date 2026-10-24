@@ -1,0 +1,5 @@
+## Interface: 11200
+## Title: RunPace
+## Notes: Rythme de la run (kills/min, XP/min) et alertes (vie, ennemis, boss)
+## SavedVariables: RunPaceDB
+RunPace.lua
