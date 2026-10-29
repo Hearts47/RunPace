@@ -32,6 +32,7 @@ Chaque alerte ne se déclenche qu'une fois, puis se réarme quand la situation r
 
 ## Réglages
 
+- **Dans les options du jeu** : Échap → Options → **RunPace** (en bas de la liste des catégories). Tu y règles les seuils des alertes, le son, et tu peux tester une alerte.
 - **Fenêtre de réglages** : tape `/rp` ou fais un **clic droit** sur le cadre. Elle contient aussi une explication de l'addon.
 - Raccourcis :
   - `/rp hp 30` : alerte vie basse sous 30 %
@@ -56,6 +57,7 @@ L'addon lit la table `AZS_RUN` fournie par le jeu (`kills`, `t`, `xp`, `xpn`, `l
 ## Limites connues
 
 - Les réglages ne sont accessibles qu'en partie : les addons ne tournent pas dans le menu principal.
+- La catégorie dans les options du jeu est ajoutée sans toucher au code du jeu : si son apparence ou son comportement te semble bizarre, ouvre une *issue*.
 - Si tu gagnes plusieurs niveaux d'un coup, l'XP/min est légèrement sous-estimée.
 
 ## Licence
